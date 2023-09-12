@@ -1,0 +1,288 @@
+* {
+    /* outline: auto; */
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont,
+        'Segoe UI', Roboto, Oxygen,
+        Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+.navbar {
+    padding: 5px 170px;
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navtitle {
+    color: #fff;
+}
+
+ul {
+    list-style: none;
+}
+
+.left-side {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.navcontent {
+    margin-left: 30px;
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* padding: 10px; */
+
+}
+
+li>a {
+    text-decoration: none;
+    color: white;
+}
+
+.salir {
+    padding: 2px 12px;
+    background-color: #17a2b8;
+    color: #fff;
+}
+
+.user-card {
+    display: inline-block;
+    width: 450px;
+    border: 3px solid #ddd;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.location * {
+    margin-right: 5px;
+}
+
+.user-info {
+    margin: 10px 0px 0px 15px;
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+/* .user-info * {  
+    margin-bottom: 1px;
+    padding-bottom: 1px;
+} */
+
+.profile-photo {
+    height: 60px;
+    position: absolute;
+    top: 8.5vh;
+    left: 1/2vh;
+    margin-left: 25px;
+    border: 3px black solid;
+    border-radius: 100px;
+    background-color: #fff;
+}
+
+.banner {
+    background-color: #17a2b8;
+    height: 70px;
+}
+
+a {
+    text-decoration: underline;
+}
+
+.config * {
+    margin-right: 5px;
+}
+
+.config {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #0a5595;
+}
+
+.icono {
+    max-height: 20px;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding: 5px 150px;
+}
+
+
+.connection-requests {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #d3d3d3;
+}
+
+.request-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #333333;
+    color: white;
+    padding: 10px;
+}
+
+.request-title>span {
+    background-color: #cccccc;
+    color: #000;
+    padding: 0px 5px;
+    border-radius: 100%;
+}
+
+.requests {
+    display: flex;
+    flex-direction: column;
+}
+
+.left-req {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.right-req {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.req {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    padding: 5px;
+    align-items: center;
+}
+
+
+.conn-icon {
+    max-width: 25px;
+    margin: 2px;
+}
+
+.conn-photo {
+    max-width: 30px;
+    border-radius: 50%;
+    margin: 2px;
+}
+
+.right-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.left-content {
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.connections {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #d3d3d3;
+    min-width: 200px;
+}
+
+.connections-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #333333;
+    color: white;
+    padding: 10px;
+    flex-wrap: nowrap;
+}
+
+.connections-title>span {
+    background-color: #cccccc;
+    padding: 0px 5px;
+    border-radius: 100%;
+    color: #000;
+}
+
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.contact * {
+    padding: 5px;
+}
+
+.view-more {
+    border-top: 2px solid #d3d3d3;
+    padding: 8px;
+}
+
+div>section {
+    margin: 10px;
+}
+
+.education {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #d3d3d3;
+}
+
+.education-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333333;
+    color: white;
+    padding: 10px 10px;
+}
+
+.education-entries {
+    display: flex;
+    flex-direction: column;
+}
+
+.entry {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 10px;
+    border-bottom: 2px solid #d3d3d3;
+}
+
+.entry>span {
+    color: gray;
+}
